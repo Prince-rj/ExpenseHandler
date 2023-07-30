@@ -1,0 +1,38 @@
+
+.NewExpense_Container{
+    /* border: 2px solid #ffffff6a; */
+    background-color: rgba(0, 0, 0, 0.512);
+    margin:auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 70%;
+    padding: 5px;
+    padding-bottom: 10px;
+    
+    padding-top:0;
+}
+.header{
+    text-align: center;
+    color:white;
+    font-weight: 800;
+    /* font-size: 40px; */
+}
+.NewExpense_btninterface{
+    text-align: center;
+}
+.NewExpense_button{
+    margin: auto;
+    background: black;
+    color:white;
+    border:none;
+    box-shadow: 0 0 0 2px rgb(24, 155, 255);
+    height: 30px;
+    border-radius: 10px;
+    width: 200Px;
+    transition:all 0.3s;
+
+    
+}
+.NewExpense_button:hover{
+    box-shadow: 0 0.1px 0 2px rgb(113, 0, 150);
+}

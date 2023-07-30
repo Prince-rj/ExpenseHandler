@@ -1,0 +1,13 @@
+.chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    margin: auto;
+    color:white;
+    border-radius: 20px;
+    background-color: black;
+    padding:  40px 0;
+    gap:20px;
+    margin-top: 0;
+}

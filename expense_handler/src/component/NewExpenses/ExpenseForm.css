@@ -1,0 +1,72 @@
+.ExpenseForm_form{
+    max-width: 70%;
+    margin:auto; 
+    padding: 10px;
+    height: 250px;
+    display:flex;
+    border: 2px solid rgba(255, 255, 255, 0.416);
+    background-color: rgba(0, 46, 96, 0.512);
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap:10px;
+    /* margin-top:  */
+    /* justify-content: center; */
+    border-radius: 10px;
+    align-items: flex-end;
+    /* text-align: center; */
+}
+.ExpenseForm_container{
+    padding :4px;
+
+    /* display:inline; */
+    width:48%;
+    /* flex-wrap: inherit; */
+    /* border:2px solid red; */
+}
+
+.ExpenseForm_Label{
+    display:block;
+    border-radius: 10px;
+    color:white;
+    padding: 2px 5px;
+    font-size: 20px;
+    
+    
+}
+.ExpenseForm_Input{
+    border-radius: 4px;
+    height: 30px;
+    background: white;
+    border: none;
+    margin-top:10px;
+    padding: 5px;
+    box-shadow: 0 0 0 2px purple;
+    min-width:300px;
+    color:black;
+}
+.ExpenseForm_button{
+    background: transparent;
+    color:white;
+    border:none;
+    box-shadow: 0 0 0 2px rgb(216, 0, 112);
+    height: 30px;
+    border-radius: 10px;
+    width: 100Px;
+    transition: all 0.2s;
+}
+.ExpenseForm_button:hover{
+    box-shadow: 0 0.1px 0 2px rgb(122, 0, 216);
+    
+}
+/* .ExpenseForm_button:hover */
+
+.ExpenseForm_Actions{
+    text-align: center;
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* padding:12px */
+}

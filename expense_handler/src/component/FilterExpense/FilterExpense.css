@@ -1,0 +1,45 @@
+
+.filtercontainer{
+    width:70%;
+    margin:auto; 
+    margin-top: 40px;
+}
+.head{
+    color:white;
+    
+}
+.heading label{
+    font-weight: 700;
+    color:white;
+    font-size: 24px;
+}
+.heading{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap:29vw;
+    margin-bottom: 20px;
+}
+.selection{
+    background-color: black;
+    box-shadow: 0 0 0 2px hotpink;
+    border-radius: 10px;
+    padding:15px;
+    text-align: center;
+    border:none;
+    color:wheat;
+    text-decoration: none;
+    width: 100px;
+    transition:all 0.3s;
+}
+.selection:hover{
+    box-shadow: 0 0.1px 0 2px rgb(3, 104, 255);
+
+}
+/* .inputs{
+    padding-right:80px;
+    padding-top:80px;
+    padding-bottom:80px;
+    text-align: center;
+     border: 2px solid white;
+} */
